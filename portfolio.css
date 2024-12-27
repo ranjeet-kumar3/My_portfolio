@@ -140,16 +140,19 @@ nav h1{
     padding: 80px 0;
     color: #060606;
     /* background-color: #fffffff1; */
+    /* text-align: center; */
     
     background-image: linear-gradient(to top, #7975dd, #838ae3, #919ee7, #a3b2ea, #b7c5eb, #c1cdeb, #cbd5ec, #d6ddec, #d6ddec, #d6ddec, #d6ddec, #d6ddec);
     
 }
+
+
 .row{
+    max-height: fit-content;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .about-col-1{
     flex-basis: 35%;
     /* overflow: hidden;
@@ -321,13 +324,13 @@ nav h1{
 
 #portfolio{
     padding: 50px 0;
-    height: 90vh;
+    height: 120vh;
     /* background-color: #ece9e9f1; */
     background-image: radial-gradient(circle, #7975dd, #838ae3, #919ee7, #a3b2ea, #b7c5eb, #c1cdeb, #cbd5ec, #d6ddec, #d6ddec, #d6ddec, #d6ddec, #d6ddec);
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -351,7 +354,7 @@ nav h1{
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.6),#4f78ff );
-   #004cff
+   /* #004cff */
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -395,7 +398,7 @@ nav h1{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #0000ff;
+    border: 1px solid #161617;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -623,10 +626,11 @@ nav .fas{
         font-size: 14px;
     }
     #about{
-        height:140vh;
+        height:160vh;
         /* padding: 80px 0; */
         /* color: #ababab; */
     }
+    
     #services{
         /* padding: 30px 0; */
         height: 100%;
